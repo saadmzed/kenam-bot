@@ -1,6 +1,6 @@
 #!/bin/bash
 while true ; do
-  for entr in tele_bom_bang_new.sh ; do
+  for entr in kenam.sh ; do
     entry="${entr/.sh/}"
     tmux kill-session -t $entry
     rm -rf ~/.telegram-cli/$entry/data/animation/*

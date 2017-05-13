@@ -77,10 +77,8 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
-    "bansettings_english",
-	"bansettings_farsi",
-    "gpsettings_en",
-	"gpsettings_fa",
+	"bansettings_ar",
+	"gpsettings_ar",
     "msg-checks",
     "plugins",
     "tools",
@@ -89,28 +87,27 @@ function create_config( )
     "del_msg",
 	"nerkh",
 	"Write",
-	"monshi",
 	"bombanghelp",
 	"lock-fosh"
 	
  },
-    sudo_users = {310083510},
+    sudo_users = {30742221},
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[》bom_bang v3
+    info_text = [[》KENAM_BOT_GOOLD
 
 🔰Our channel :
-》@sudo_monsters《
+》@kenamch《
 
 🔰Our channel2 :
-》@bom_bang_team《
+》@kenam_ch《
 
-🔰Our channel3 :
-》@bombangteam《
+🔰by dev :
+》@saad7m《
 
 🔰Our website :
-》http://telebombang2018
+》https://telegram.me/joinchat/AdUWzT25mIyGg7n4WQAzFQ
 ]],
   }
   serialize_to_file(config, './data/config.lua')

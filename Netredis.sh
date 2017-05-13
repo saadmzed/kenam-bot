@@ -1,0 +1,12 @@
+redis-server
+./kenam.sh
+redis-server
+redis-server
+./kenam.sh
+redis-server
+redis-server
+./kenam.sh
+redis-server
+redis-server
+./kenam.sh
+redis-server

@@ -1,4 +1,4 @@
-﻿--Begin Write.lua By @bombangteam
+﻿--Begin Write.lua By @saad7m
 function string:split(sep)
   local sep, fields = sep or ":", {}
   local pattern = string.format("([^%s]+)", sep)
@@ -204,7 +204,7 @@ return {
 	patterns = {
 		"^([Ww]rite) (.*)",
 		"^([Ww]rite)$",
-		"^(نوشتن) (.*)",
+		"^(زخرف) (.*)",
 		},
 	run = run
 }

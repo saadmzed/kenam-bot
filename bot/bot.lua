@@ -88,7 +88,8 @@ function create_config( )
 	"nerkh",
 	"Write",
 	"bombanghelp",
-	"lock-fosh"
+	"lock-fosh",
+	 "saad"
 	
  },
     sudo_users = {30742221},

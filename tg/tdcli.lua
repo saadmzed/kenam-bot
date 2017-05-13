@@ -2703,8 +2703,8 @@ M.sendForwarded = sendForwarded
 
 return M
 
--- کد های پایین در ربات نشان داده نمیشوند
--- http://permag.ir
--- @permag_ir
--- @permag_bots
--- @permag
+
+-- http://https://telegram.me/joinchat/AdUWzT25mIyGg7n4WQAzFQ
+-- @saad7m
+-- @kenam_ch
+-- @kenamch

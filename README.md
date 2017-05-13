@@ -1,51 +1,79 @@
-✔️🔰 update 10 ربات ضداسپم بوم بنگ🔰
+  - [KENAM-BOT](https://telegram.me/saad7m) Source By saadmusic
+============
 
-ستاره یادت نره ازون بالا یه کلیک کن بهمون یه ستاره بده دمت گرم
+  - An advanced and powerful administration bot based on NEW TG-CLI
 
-✔️ادیت کامل و جالب پرمگ و دیباگ شده (سورسی متفاوت) بوم بنگ💊
 
-🔰TELE_BOM_BANG آموزش نصب ربات
+-----------------
 
-در داخل سرور خود یک یوزر میسازید به آن دسترسی سودو میدهید. و کدهای زیر را به طور کامل کپی کرده و میزنید
+## Commands
 
-sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev ppa-purge python3-pip python3-dev sudo pip3 install redis sudo service redis-server restart sudo add-apt-repository ppa:ubuntu-toolchain-r/test sudo apt-get update sudo apt-get upgrade sudo apt-get dist-upgrade sudo ppa-purge
+| Use (help) to see help list |
+|:--------|:------------|
+| [#!/]help |
 
-👇از سرور خارج شده و مجدد وارد میشوید و کد های نصب ربات را میزنید👇
+| Use (setlang ar) To use bot in Arabic >Or< To use bot in English send (setlang en) |
+|:--------|:------------|
+| [#!/]setlang [ar / en] | 
 
-git clone https://github.com/telebombang2018/tele_bom_bang_new.git && cd tele_bom_bang_new && chmod +x tele_bom_bang_new.sh && ./tele_bom_bang_new.sh install && ./tele_bom_bang_new.sh
+-You can use "#", "!", or "/" to begin all commands
 
-شماره ربات را وارد میکنید
 
-#####################
+* * *
 
-👇حالا ایدی خودتان را در پوشه ی تولز و پوشه کانفیگ و پوشه دیتا قرار دهید و از سرور خارج شوید و کد های زیر را در ترمینال جدید بزنید👇
+# Installation
 
-cd tele_bom_bang_new
+`````
+cd $HOME
+git clone https://github.com/saadmzed/kenam-bot.git
+cd kenam-bot
+chmod +x kenam.sh
+./kenam.sh install
+./kenam.sh # Enter a phone number & confirmation code.
 
-screen ./tele_bom_bang_new.sh
+# And run thes files :
 
-ربات شما راه اندازی میشود
+Netredis.sh
+kenam.sh
+``````
+### One command
+To install everything in one command, use:
 
-channel : @bom_bang_team
+```sh
+ git clone https://github.com/saadmzed/kenam-bot.git && cd kenam && chmod +x kenam.sh && ./kenam.sh install && ./kenam.sh
+```
 
-توجه: #اموزش #زدن #اتولانچ دوتا فایل اضاف شده به نام انتی کرش و اتولانچ / که بهترانتی کرش رو نصب و لانچ کنید اگه اف نشد که عالیه اما اگه اف شد از اتولانچ استفاده کنید طبق زیر
+* * *
 
-لانچر نصب کردن
+### Sudo And Bot
 
-cd tele_bom_bang_new
+After you run the bot for first time, send it `/id`. Get your ID and `stop the bot.`
 
-chmod +x anticrash.sh
+Open `./kenam-bot./data./Config.lua` And add your id in there
+```
+    sudo_users = {
+    30742221,
+    0,
+    YourID
+  }
+```
 
-screen ./anticrash.sh
+# Support and development
 
-اتولانچ نصب کردن
+More information [kenam Development](https://telegram.me/joinchat/AdUWzT25mIyGg7n4WQAzFQ)
 
-cd tele_bom_bang_new
+* * *
 
-chmod +x autolaunch.sh
+# Developer!
 
-screen ./autolaunch.sh
 
-توجه کنید که تو اتولانچ دومی باید یه ربات با بات فادر بسازید توکن رو داخل اتولانچ جاویه کلمه بوت بزارید و جایگزین کنید و اینکه ایدی خودتونو در همون فایل بجای عدد 310083510 بزارید و بعد کد های اتولانچ دومی رو بزنید
+- [saadmzed On github](https://github.com/saadmzed) 
 
-editor and creator : mafia_boy .. tanx @shadobaker0 and @puzzle_sudo ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+- [saadmzed On Telegram](https://telegram.me/saad7m)
+
+
+### Our Telegram channel:
+
+[kenam Channel](https://telegram.me/kenam_ch)
+
+editor and creator : mafia_boy .. tanx @kenamch and @saad7m ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

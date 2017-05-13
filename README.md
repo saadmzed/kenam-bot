@@ -40,7 +40,7 @@ kenam.sh
 To install everything in one command, use:
 
 ```sh
- git clone https://github.com/saadmzed/kenam-bot.git && cd kenam && chmod +x kenam.sh && ./kenam.sh install && ./kenam.sh
+ git clone https://github.com/saadmzed/kenam-bot.git && cd kenam-bot && chmod +x kenam.sh && ./kenam.sh install && ./kenam.sh
 ```
 
 * * *
